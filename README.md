@@ -59,4 +59,11 @@ This will create 3 processes and run 3 tests at a time
 
 ``docker build -t <image_name:tag>``
 
-``docker run -it --env-file secrets.env image_name``
+### all tests without parallesism
+``docker run -it --env-file secrets.env image_name pytest -v tests``
+
+### all tests with parallesism
+``docker run -it --env-file secrets.env image_name pytest -v --numprocesses tests``
+
+### particular tests
+``docker run -it --env-file secrets.env image_name pytest -v tests/test_accountpage.py``
