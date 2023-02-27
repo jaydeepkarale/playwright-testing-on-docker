@@ -43,10 +43,4 @@ class ProductPage:
             expect(coupon_code_locator).to_be_visible()
             set_test_status(self.page, "Passed", "Use Coupon Code option is visible")
         except Exception as ex:
-            set_test_status(self.page, "Failed", "Use Coupon Code option is visible")
-                    
-            
-
-                
-
-        
+            set_test_status(self.page, "Failed", "Use Coupon Code option is visible")                       
