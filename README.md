@@ -2,7 +2,9 @@
 
 This repository contains code to demo Python Playwright 🎭 and Docker🐋
 
-The projec uses Page Object Model(POM) design pattern to implement 8 tests on 3 different pages of the test website [LambdaTest Ecommerce Playground Demo Website](https://ecommerce-playground.lambdatest.io/)
+The entire testing was performed on local gird as well as [LambdaTest Cloud Grid](http://www.lambdatest.com?fp_ref=jaydeep88)
+
+The project uses Page Object Model(POM) design pattern to implement 8 tests on 3 different pages of the test website [LambdaTest Ecommerce Playground Demo Website](https://ecommerce-playground.lambdatest.io/)
 
 ```
 DockerPlaywright
